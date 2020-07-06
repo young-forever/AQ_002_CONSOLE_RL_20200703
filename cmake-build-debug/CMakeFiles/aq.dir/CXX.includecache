@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/chessboard_predict.h
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/core/core.hpp
+-
+string
+-
+vector
+-
+iostream
+-
+algorithm
+-
+cmath
+-
+iostream
+-
+sys/types.h
+-
+dirent.h
+-
+
+/home/zyq/Project/CLION_project/AQ002-CONSOLE-20200703-RL/src/chessboard_predict.cpp
+chessboard_predict.h
+/home/zyq/Project/CLION_project/AQ002-CONSOLE-20200703-RL/src/chessboard_predict.h
+unistd.h
+-
+thread
+-
+string
+-
+time.h
+-
+sys/time.h
+-
+
